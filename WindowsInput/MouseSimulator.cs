@@ -9,7 +9,7 @@ namespace WindowsInput
     /// </summary>
     public class MouseSimulator : IMouseSimulator
     {
-        private const int MouseWheelClickSize = 120;
+        private const int MouseWheelClickSize = 60;//default was 120
 
         private readonly IInputSimulator _inputSimulator;
 
